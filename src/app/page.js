@@ -33,14 +33,14 @@ export default function Home() {
 
   return (
     <>
-      <section className="h-[400px] w-full">
-        <div className="w-[90%] flex items-center justify-between mx-auto">
-          <div className="w-[55%] h-full flex flex-col justify-center">
+      <section className="h-[400px] sm:h-auto w-full">
+        <div className="w-[90%] h-full flex items-center justify-between mx-auto sm:flex-col sm:gap-[20px]">
+          <div className="w-[55%] sm:w-[95%] h-full flex flex-col justify-center">
             <p className="text-[36px] font-bold">
               To be the leading provider of Research and Training Services
               related to economic growth and development in all sectors.
             </p>
-            <div className="p-4 text-[16px]">
+            <div className="p-4 sm:p-0 text-[16px]">
               <ul className="list-none space-y-2">
                 <li className="flex items-start">
                   <span className="text-green-600 mr-2">
@@ -99,7 +99,7 @@ export default function Home() {
               Get in touch
             </button>
           </div>
-          <div className="w-[45%] flex justify-end items-center">
+          <div className="w-[45%] sm:w-[95%] flex justify-end items-center">
             <img
               className="w-[500px] h-[400px]"
               src={"/digital.gif"}
@@ -108,8 +108,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-[550px] py-[20px] bg-[#F0F8F6] w-full">
-        <div className="h-full w-[90%] flex items-center justify-between mx-auto">
+      <section className="h-[550px] sm:h-auto py-[20px] bg-[#F0F8F6] w-full">
+        <div className="h-full w-[90%] sm:w-[95%] sm:mx-auto flex items-center justify-between sm:flex-col sm:gap-[20px] mx-auto">
           <div className="flex flex-col h-full gap-[20px]">
             <div>
               <p className="text-[#01C4D8] text-[20px]">
@@ -121,7 +121,7 @@ export default function Home() {
                 analytics and automation.
               </p>
             </div>
-            <div className="h-[400px] w-[850px] rounded bg-white border">
+            <div className="h-[400px] w-[850px] sm:w-[100%] sm:h-[350px] rounded bg-white border">
               <img
                 className="rounded h-full w-full object-contain"
                 src="/admin.png"
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-white relative p-[20px] h-[750px] w-full">
+      <section className="bg-white relative p-[20px] h-[750px] sm:h-auto w-full">
         <p className="font-bold text-[20px] text-center">Our Values</p>
         <p className="text-[16px] text-center text-[#000]">
           Our values are the cornerstone of everything we do. They guide our
@@ -169,7 +169,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <img className="h-[400px] w-[400px]" src="/values.gif" />
         </div>
-        <div className="flex h-[650px] justify-around">
+        <div className="flex h-[650px] sm:h-full sm:flex-col sm:gap-[20px] justify-around">
           <div className="h-full w-[40%] items-center flex flex-col justify-around">
             <div className="flex w-full flex-col gap-[10px] items-center">
               <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
@@ -190,7 +190,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Innovation</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We strive to lead the industry with innovative software
                 solutions that push the boundaries of technology, ensuring our
                 clients stay ahead in a competitive marketplace.
@@ -214,7 +214,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Creativity</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We think outside the box, turning imagination into innovation at
                 every step.
               </p>
@@ -244,7 +244,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Continuous Improvement</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We focus on continual growth and improvement, encouraging
                 innovation, skill development, and feedback to keep evolving our
                 solutions and processes.
@@ -267,7 +267,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Integrity</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 Trust is the foundation of our business. We prioritize
                 transparency and honesty in all of our interactions.
               </p>
@@ -287,7 +287,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Security and Privacy</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We prioritize the security and privacy of our clients' data by
                 implementing best practices and stringent measures to safeguard
                 sensitive information.
@@ -308,7 +308,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="text-center text-[18px]">Fun</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
+              <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We bring joy to every interaction, making work feel less like
                 work and more like fun.
               </p>
@@ -316,7 +316,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[#00C5D9] h-[200px] w-full">
+      <section className="bg-[#00C5D9] h-[200px] sm:h-auto w-full">
         <div className="w-[90%] h-full mx-auto flex items-center justify-between">
           <div className="flex flex-col justify-start gap-[10px]">
             <div className="flex justify-start items-center gap-[10px]">
@@ -332,10 +332,10 @@ export default function Home() {
                   d="M8 13.5H3a.5.5 0 0 1-.5-.5V8a.5.5 0 0 1 .5-.5h5m0 6v-6m0 6h5a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H8m2.5.5v2m-2-7v2m-3 3v2m-1-7v4.5h7V3a.5.5 0 0 0-.5-.5H5a.5.5 0 0 0-.5.5Z"
                 />
               </svg>
-              <p className="text-[24px] text-white">
+              <p className="text-[24px] flex items-center gap-[5px] text-white">
                 <span ref={ref1} className="font-bold text-[32px]">
                   1000
-                </span>{" "}
+                </span>
                 Clients
               </p>
             </div>
@@ -357,7 +357,7 @@ export default function Home() {
                   <path d="M10 5h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4v1h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4zM6 5V4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v-1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" />
                 </g>
               </svg>
-              <p className="text-[24px] text-white">
+              <p className="text-[24px] flex items-center gap-[5px] text-white">
                 <span ref={ref2} className="font-bold text-[32px]">
                   2000
                 </span>
@@ -387,7 +387,7 @@ export default function Home() {
                   />
                 </g>
               </svg>
-              <p className="text-[24px] text-white">
+              <p className="text-[24px] flex items-center gap-[5px] text-white">
                 <span ref={ref3} className="font-bold text-[32px]">
                   3000
                 </span>{" "}
@@ -413,7 +413,7 @@ export default function Home() {
                   clipRule="evenodd"
                 />
               </svg>
-              <p className="text-[24px] text-white">
+              <p className="text-[24px] flex items-center gap-[5px] text-white">
                 <span ref={ref4} className="font-bold text-[32px]">
                   500
                 </span>{" "}
@@ -438,7 +438,7 @@ export default function Home() {
                   d="M37.138 36.57v3.062h-29.3a2.334 2.334 0 0 1-2.338-2.33h0V14.696h3.056V36.57zM12.113 10.698a2.334 2.334 0 0 1 2.337-2.33h6.793c.65 0 1.283.202 1.812.579l3.828 2.725c.53.377 1.163.58 1.812.579h11.468a2.334 2.334 0 0 1 2.337 2.33v15.531a2.334 2.334 0 0 1-2.337 2.33H14.45a2.334 2.334 0 0 1-2.337-2.33z"
                 />
               </svg>
-              <p className="text-[24px] text-white">
+              <p className="text-[24px] flex items-center gap-[5px] text-white">
                 <span ref={ref5} className="font-bold text-[32px]">
                   1000
                 </span>{" "}

@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="h-[140px] w-full shadow-md">
+    <div className="h-[140px] shadow-md">
       <div className="h-[50px] border-b">
         <Navigation />
       </div>
-      <div className="h-[90px]  w-full">
+      <div className="h-[90px] w-full">
         <div className="w-[90%] mx-auto h-full flex items-center justify-between">
           <div className="h-full h-full flex items-center">
             <img className="h-[50px]" src="/new_logo.png" alt="logo" />

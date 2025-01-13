@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${nunito.variable} antialiased`}>
         <main className="relative w-full">
-          <nav className="fixed bg-white top-0 right-0 w-full">
+          <nav className="w-full fixed bg-white top-0 right-0">
             <Header />
           </nav>
-          <div className="mt-[150px]">{children}</div>
+          <div className="mt-[150px] w-full">{children}</div>
           <div className="w-full">
             <Footer />
           </div>
