@@ -12,6 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    screens: { sm: { max: "840px" } },
   },
   plugins: [],
 };
