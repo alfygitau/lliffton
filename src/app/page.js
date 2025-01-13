@@ -160,6 +160,162 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="bg-white relative p-[20px] h-[750px] w-full">
+        <p className="font-bold text-[20px] text-center">Our Values</p>
+        <p className="text-[16px] text-center text-[#000]">
+          Our values are the cornerstone of everything we do. They guide our
+          decisions, shape our culture, and drive our success.
+        </p>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <img className="h-[400px] w-[400px]" src="/values.gif" />
+        </div>
+        <div className="flex h-[650px] justify-around">
+          <div className="h-full w-[40%] items-center flex flex-col justify-around">
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M29.755 21.345A1 1 0 0 0 29 21h-2v-2c0-1.102-.897-2-2-2h-4c-1.103 0-2 .898-2 2v2h-2a1 1 0 0 0-.99 1.142l1 7A1 1 0 0 0 18 30h10a1 1 0 0 0 .99-.858l1-7a1 1 0 0 0-.235-.797M21 19h4v2h-4zm6.133 9h-8.266l-.714-5h9.694zM10 20h2v10h-2z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="m16.78 17.875l-1.906-2.384l-1.442-3.605A2.99 2.99 0 0 0 10.646 10H5c-1.654 0-3 1.346-3 3v7c0 1.103.897 2 2 2h1v8h2V20H4v-7a1 1 0 0 1 1-1h5.646c.411 0 .776.247.928.629l1.645 3.996l2 2.5zM4 5c0-2.206 1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4s-4-1.794-4-4m2 0c0 1.103.897 2 2 2s2-.897 2-2s-.897-2-2-2s-2 .897-2 2"
+                  />
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Innovation</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                We strive to lead the industry with innovative software
+                solutions that push the boundaries of technology, ensuring our
+                clients stay ahead in a competitive marketplace.
+              </p>
+            </div>
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" fill-rule="evenodd">
+                    <path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
+                    <path
+                      fill="currentColor"
+                      d="M14 2a3 3 0 0 1 .054 6l-.218.653A4.5 4.5 0 0 1 15.89 11.5h1.319a2.5 2.5 0 1 1 0 2h-1.32a4.5 4.5 0 0 1-1.006 1.968l.704.704a2.5 2.5 0 1 1-1.414 1.414l-.934-.934A4.5 4.5 0 0 1 11.5 17a4.5 4.5 0 0 1-1.982-.46l-.871 1.046a3 3 0 1 1-1.478-1.35l.794-.954A4.48 4.48 0 0 1 7 12.5c0-.735.176-1.428.488-2.041l-.868-.724A2.5 2.5 0 1 1 7.9 8.2l.87.724a4.48 4.48 0 0 1 3.169-.902l.218-.654A3 3 0 0 1 14 2M6 18a1 1 0 1 0 0 2a1 1 0 0 0 0-2m10.5 0a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m-5-8a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5m8 2a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m-14-5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1M14 4a1 1 0 1 0 0 2a1 1 0 0 0 0-2"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Creativity</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                We think outside the box, turning imagination into innovation at
+                every step.
+              </p>
+            </div>
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 48 48"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.252 31.262A12.973 12.973 0 0 1 24 11.027m10.756 5.719A12.973 12.973 0 0 1 24 36.97"
+                  />
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m24 17.906l6.703-6.703L24 4.5h0zm-.001 12.188l-6.703 6.703l6.703 6.703z"
+                  />
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Continuous Improvement</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                We focus on continual growth and improvement, encouraging
+                innovation, skill development, and feedback to keep evolving our
+                solutions and processes.
+              </p>
+            </div>
+          </div>
+          <div className="h-full w-[40%] items-center flex flex-col items-start justify-around">
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6 21q-1.25 0-2.125-.875T3 18V8h2v10q0 .425.288.713T6 19t.713-.288T7 18V6q0-1.25.875-2.125T10 3t2.125.875T13 6v12q0 .425.288.713T14 19t.713-.288T15 18V6q0-1.25.875-2.125T18 3t2.125.875T21 6v10h-2V6q0-.425-.288-.712T18 5t-.712.288T17 6v12q0 1.25-.875 2.125T14 21t-2.125-.875T11 18V6q0-.425-.288-.712T10 5t-.712.288T9 6v12q0 1.25-.875 2.125T6 21"
+                  />
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Integrity</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                Trust is the foundation of our business. We prioritize
+                transparency and honesty in all of our interactions.
+              </p>
+            </div>
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 17q.425 0 .713-.288T13 16v-4q0-.425-.288-.712T12 11t-.712.288T11 12v4q0 .425.288.713T12 17m0-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 12.9q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.637T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9m0-2q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3m0-7.9"
+                  />
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Security and Privacy</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                We prioritize the security and privacy of our clients' data by
+                implementing best practices and stringent measures to safeguard
+                sensitive information.
+              </p>
+            </div>
+            <div className="flex w-full flex-col gap-[10px] items-center">
+              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 2a10 10 0 0 1 10 10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2A10 10 0 0 1 12 2m0 6a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m5 4a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2M7 12a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m8 3l1.27 4.45l.08.55c0 1.1-.9 2-2 2h-4.7a2 2 0 0 1-2-2l.08-.55L9 15z"
+                  />
+                </svg>
+              </div>
+              <p className="text-center text-[18px]">Fun</p>
+              <p className="text-center w-[50%] mx-auto text-[16px]">
+                We bring joy to every interaction, making work feel less like
+                work and more like fun.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="bg-[#00C5D9] h-[200px] w-full">
         <div className="w-[90%] h-full mx-auto flex items-center justify-between">
           <div className="flex flex-col justify-start gap-[10px]">
@@ -290,162 +446,6 @@ export default function Home() {
               </p>
             </div>
             <p className="text-white text-[24px]">All Clients</p>
-          </div>
-        </div>
-      </section>
-      <section className="bg-white relative p-[20px] h-[700px] w-full">
-        <p className="font-bold text-[20px] text-center">Our Values</p>
-        <p className="text-[16px] text-center text-[#000]">
-          Our values are the cornerstone of everything we do. They guide our
-          decisions, shape our culture, and drive our success.
-        </p>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <img className="h-[400px] w-[400px]" src="/values.gif" />
-        </div>
-        <div className="flex h-[650px] justify-around">
-          <div className="h-full w-[40%] items-center flex flex-col justify-around">
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M29.755 21.345A1 1 0 0 0 29 21h-2v-2c0-1.102-.897-2-2-2h-4c-1.103 0-2 .898-2 2v2h-2a1 1 0 0 0-.99 1.142l1 7A1 1 0 0 0 18 30h10a1 1 0 0 0 .99-.858l1-7a1 1 0 0 0-.235-.797M21 19h4v2h-4zm6.133 9h-8.266l-.714-5h9.694zM10 20h2v10h-2z"
-                  />
-                  <path
-                    fill="currentColor"
-                    d="m16.78 17.875l-1.906-2.384l-1.442-3.605A2.99 2.99 0 0 0 10.646 10H5c-1.654 0-3 1.346-3 3v7c0 1.103.897 2 2 2h1v8h2V20H4v-7a1 1 0 0 1 1-1h5.646c.411 0 .776.247.928.629l1.645 3.996l2 2.5zM4 5c0-2.206 1.794-4 4-4s4 1.794 4 4s-1.794 4-4 4s-4-1.794-4-4m2 0c0 1.103.897 2 2 2s2-.897 2-2s-.897-2-2-2s-2 .897-2 2"
-                  />
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Innovation</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                We strive to lead the industry with innovative software
-                solutions that push the boundaries of technology, ensuring our
-                clients stay ahead in a competitive marketplace.
-              </p>
-            </div>
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <g fill="none" fill-rule="evenodd">
-                    <path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
-                    <path
-                      fill="currentColor"
-                      d="M14 2a3 3 0 0 1 .054 6l-.218.653A4.5 4.5 0 0 1 15.89 11.5h1.319a2.5 2.5 0 1 1 0 2h-1.32a4.5 4.5 0 0 1-1.006 1.968l.704.704a2.5 2.5 0 1 1-1.414 1.414l-.934-.934A4.5 4.5 0 0 1 11.5 17a4.5 4.5 0 0 1-1.982-.46l-.871 1.046a3 3 0 1 1-1.478-1.35l.794-.954A4.48 4.48 0 0 1 7 12.5c0-.735.176-1.428.488-2.041l-.868-.724A2.5 2.5 0 1 1 7.9 8.2l.87.724a4.48 4.48 0 0 1 3.169-.902l.218-.654A3 3 0 0 1 14 2M6 18a1 1 0 1 0 0 2a1 1 0 0 0 0-2m10.5 0a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m-5-8a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5m8 2a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1m-14-5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1M14 4a1 1 0 1 0 0 2a1 1 0 0 0 0-2"
-                    />
-                  </g>
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Creativity</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                We think outside the box, turning imagination into innovation at
-                every step.
-              </p>
-            </div>
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 48 48"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.252 31.262A12.973 12.973 0 0 1 24 11.027m10.756 5.719A12.973 12.973 0 0 1 24 36.97"
-                  />
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m24 17.906l6.703-6.703L24 4.5h0zm-.001 12.188l-6.703 6.703l6.703 6.703z"
-                  />
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Continuous Improvement</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                We focus on continual growth and improvement, encouraging
-                innovation, skill development, and feedback to keep evolving our
-                solutions and processes.
-              </p>
-            </div>
-          </div>
-          <div className="h-full w-[40%] items-center flex flex-col items-start justify-around">
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M6 21q-1.25 0-2.125-.875T3 18V8h2v10q0 .425.288.713T6 19t.713-.288T7 18V6q0-1.25.875-2.125T10 3t2.125.875T13 6v12q0 .425.288.713T14 19t.713-.288T15 18V6q0-1.25.875-2.125T18 3t2.125.875T21 6v10h-2V6q0-.425-.288-.712T18 5t-.712.288T17 6v12q0 1.25-.875 2.125T14 21t-2.125-.875T11 18V6q0-.425-.288-.712T10 5t-.712.288T9 6v12q0 1.25-.875 2.125T6 21"
-                  />
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Integrity</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                Trust is the foundation of our business. We prioritize
-                transparency and honesty in all of our interactions.
-              </p>
-            </div>
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M12 17q.425 0 .713-.288T13 16v-4q0-.425-.288-.712T12 11t-.712.288T11 12v4q0 .425.288.713T12 17m0-8q.425 0 .713-.288T13 8t-.288-.712T12 7t-.712.288T11 8t.288.713T12 9m0 12.9q-.175 0-.325-.025t-.3-.075Q8 20.675 6 17.637T4 11.1V6.375q0-.625.363-1.125t.937-.725l6-2.25q.35-.125.7-.125t.7.125l6 2.25q.575.225.938.725T20 6.375V11.1q0 3.5-2 6.538T12.625 21.8q-.15.05-.3.075T12 21.9m0-2q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3m0-7.9"
-                  />
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Security and Privacy</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                We prioritize the security and privacy of our clients' data by
-                implementing best practices and stringent measures to safeguard
-                sensitive information.
-              </p>
-            </div>
-            <div className="flex w-full flex-col gap-[10px] items-center">
-              <div className="h-[70px] w-[70px] rounded-full bg-[#D3FFFF] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M12 2a10 10 0 0 1 10 10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2A10 10 0 0 1 12 2m0 6a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m5 4a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2M7 12a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2m8 3l1.27 4.45l.08.55c0 1.1-.9 2-2 2h-4.7a2 2 0 0 1-2-2l.08-.55L9 15z"
-                  />
-                </svg>
-              </div>
-              <p className="text-center text-[18px]">Fun</p>
-              <p className="text-center w-[50%] mx-auto text-[16px]">
-                We bring joy to every interaction, making work feel less like
-                work and more like fun.
-              </p>
-            </div>
           </div>
         </div>
       </section>

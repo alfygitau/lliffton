@@ -25,6 +25,7 @@ const Navigation = () => {
           width="20"
           height="20"
           viewBox="0 0 24 24"
+          className="cursor-pointer"
         >
           <path
             fill="#000"
