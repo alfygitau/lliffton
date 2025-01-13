@@ -1,9 +1,10 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-[70px] w-full bg-white flex flex-col justify-end">
+    <div className="h-[70px] w-full bg-[#F2F2F2] flex flex-col justify-end">
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"

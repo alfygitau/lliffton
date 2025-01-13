@@ -1,6 +1,9 @@
 "use client";
 import { useEffect, useRef } from "react";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 export default function Home() {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
@@ -30,6 +33,26 @@ export default function Home() {
       }
     });
   }
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
 
   return (
     <>
@@ -339,7 +362,7 @@ export default function Home() {
                 Clients
               </p>
             </div>
-            <p className="text-white text-[24px]">Producer Organizations</p>
+            <p className="text-white text-[20px]">Producer Organizations</p>
           </div>
           <div className="flex flex-col justify-start gap-[10px]">
             <div className="flex justify-start items-center gap-[10px]">
@@ -364,7 +387,7 @@ export default function Home() {
                 Clients
               </p>
             </div>
-            <p className="text-white text-[24px]">Input Providers</p>
+            <p className="text-white text-[20px]">Input Providers</p>
           </div>
           <div className="flex flex-col justify-start gap-[10px]">
             <div className="flex justify-start items-center gap-[10px]">
@@ -394,7 +417,7 @@ export default function Home() {
                 Clients
               </p>
             </div>
-            <p className="text-white text-[24px]">
+            <p className="text-white text-[20px]">
               Financial and Insurance Providers
             </p>
           </div>
@@ -420,7 +443,7 @@ export default function Home() {
                 Clients
               </p>
             </div>
-            <p className="text-white text-[24px]">Big Data Storage</p>
+            <p className="text-white text-[20px]">Big Data Storage</p>
           </div>
           <div className="flex flex-col justify-start gap-[10px]">
             <div className="flex justify-start items-center gap-[10px]">
@@ -445,7 +468,53 @@ export default function Home() {
                 Clients
               </p>
             </div>
-            <p className="text-white text-[24px]">All Clients</p>
+            <p className="text-white text-[20px]">All Clients</p>
+          </div>
+        </div>
+      </section>
+      <section className="h-[250px] w-full py-[20px] bg-white">
+        <div className="w-[90%] h-full flex items-center justify-around mx-auto">
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/rti.png"
+              alt="rti"
+            />
+          </div>
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/horns.png"
+              alt="horns"
+            />
+          </div>
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/intelli_wealth.png"
+              alt="wealth"
+            />
+          </div>
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/sana.png"
+              alt="sana"
+            />
+          </div>
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/ftma.png"
+              alt="ftma"
+            />
+          </div>
+          <div className="h-[150px] w-[150px] border rounded-full">
+            <img
+              className="h-full w-full object-fill rounded-full"
+              src="/cga.webp"
+              alt="cga"
+            />
           </div>
         </div>
       </section>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Navigation from "../navigation/Navigation";
 import Link from "next/link";
