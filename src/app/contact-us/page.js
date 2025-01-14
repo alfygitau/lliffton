@@ -147,8 +147,8 @@ const ContactUs = () => {
           <div className="h-[600px] w-[80%] bg-[#EEF1F7]">
             <div className="h-[33%] flex flex-col justify-center items-center border-b border-gray-300">
               <div className="flex items-center gap-[10px]">
-                <LocateIcon size={30} color="black" />
-                <p className="text-[20px]">Visit Office</p>
+                <LocateIcon size={20} color="black" />
+                <p className="text-[20px] font-bold">Visit Office</p>
               </div>
               <p className="text-[18px]">
                 Apple Wood, Off Ngong Road, Nairobi, Kenya
@@ -156,8 +156,8 @@ const ContactUs = () => {
             </div>
             <div className="h-[33%] flex flex-col justify-center items-center border-b border-gray-300">
               <div className="flex items-center gap-[10px]">
-                <PhoneCall size={30} color="black" />
-                <p className="text-[20px]">Mobile phone</p>
+                <PhoneCall size={20} color="black" />
+                <p className="text-[20px] font-bold">Mobile phone</p>
               </div>
               <a href="tel:+254708673973" className="text-[18px]">
                 Call:+254708673973
@@ -165,8 +165,8 @@ const ContactUs = () => {
             </div>
             <div className="h-[33%] flex flex-col justify-center items-center">
               <div className="flex items-center gap-[10px]">
-                <MessageCircle size={30} color="black" />
-                <p className="text-[20px]">Email address</p>
+                <MessageCircle size={20} color="black" />
+                <p className="text-[20px] font-bold">Email address</p>
               </div>
               <a href="mail:info@llifftonanalytica.com" className="text-[18px]">
                 info@llifftonanalytica.com

@@ -118,7 +118,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <button className="w-[360px] bg-white text-[#01C4D8] border h-[43px] border-[#01C4D8] rounded text-[15px] hover:bg-[#01C4D8] hover:text-white hover:border-0">
+            <button className="w-[360px] font-bold uppercase bg-white text-[#01C4D8] border h-[43px] border-[#01C4D8] rounded text-[15px] hover:bg-[#01C4D8] hover:text-white hover:border-0">
               Get in touch
             </button>
           </div>
@@ -144,9 +144,9 @@ export default function Home() {
                 analytics and automation.
               </p>
             </div>
-            <div className="h-[500px] w-[850px] sm:w-[100%] sm:h-[350px] rounded bg-white border">
+            <div className="h-[500px] w-[850px] sm:w-[100%] sm:h-[350px] rounded-[10px] bg-white border">
               <img
-                className="rounded h-full w-full object-contain"
+                className="rounded-[10px] h-full w-full object-contain"
                 src="/admin.png"
                 alt="admin"
               />
@@ -212,7 +212,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Innovation</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">
+                Innovation
+              </p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We strive to lead the industry with innovative software
                 solutions that push the boundaries of technology, ensuring our
@@ -236,7 +238,9 @@ export default function Home() {
                   </g>
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Creativity</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">
+                Creativity
+              </p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We think outside the box, turning imagination into innovation at
                 every step.
@@ -266,7 +270,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Continuous Improvement</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">
+                Continuous Improvement
+              </p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We focus on continual growth and improvement, encouraging
                 innovation, skill development, and feedback to keep evolving our
@@ -289,7 +295,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Integrity</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">
+                Integrity
+              </p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 Trust is the foundation of our business. We prioritize
                 transparency and honesty in all of our interactions.
@@ -309,7 +317,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Security and Privacy</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">
+                Security and Privacy
+              </p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We prioritize the security and privacy of our clients' data by
                 implementing best practices and stringent measures to safeguard
@@ -330,7 +340,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-center text-[18px]">Fun</p>
+              <p className="text-center text-[#01C4D9] text-[18px]">Fun</p>
               <p className="text-center w-[50%] sm:w-[95%] mx-auto text-[16px]">
                 We bring joy to every interaction, making work feel less like
                 work and more like fun.
