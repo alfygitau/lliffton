@@ -144,7 +144,7 @@ export default function Home() {
                 analytics and automation.
               </p>
             </div>
-            <div className="h-[500px] w-[850px] sm:w-[100%] sm:h-[350px] rounded-[10px] bg-white border">
+            <div className="h-[500px] w-full sm:w-[100%] sm:h-[350px] rounded-[10px] bg-white border">
               <img
                 className="rounded-[10px] h-full w-full object-contain"
                 src="/admin.png"
@@ -164,7 +164,7 @@ export default function Home() {
                 Run surveys on behalf of organizations.
               </p>
             </div>
-            <div className="flex items-center gap-[20px]">
+            <div className="flex w-full items-center gap-[20px]">
               <div className="h-[500px] w-[250px] p-[10px] rounded-[30px] bg-white border">
                 <img
                   className="h-full w-full object-contain"
