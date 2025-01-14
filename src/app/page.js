@@ -133,7 +133,7 @@ export default function Home() {
       </section>
       <section className="h-[650px] sm:h-auto py-[20px] bg-[#F0F8F6] w-full">
         <div className="h-full w-[90%] sm:w-[95%] sm:mx-auto flex items-center justify-between sm:flex-col sm:gap-[20px] mx-auto">
-          <div className="flex flex-col h-full justify-between">
+          <div className="flex flex-col w-[58%] h-full justify-between">
             <div>
               <p className="text-[#01C4D8] text-[20px]">
                 Integrated Admin Platforms
@@ -152,7 +152,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col h-full justify-between">
+          <div className="flex flex-col w-[40%] h-full justify-between">
             <div>
               <p className="text-[#01C4D8] text-[20px]">
                 Integrated Mobile Platforms
