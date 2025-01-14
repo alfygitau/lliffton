@@ -124,7 +124,7 @@ export default function Home() {
           </div>
           <div className="w-[45%] sm:w-[95%] flex justify-end items-center">
             <img
-              className="w-[500px] h-[400px]"
+              className="w-[400px] h-[400px]"
               src={"/digital.gif"}
               alt="digital"
             />
@@ -133,7 +133,7 @@ export default function Home() {
       </section>
       <section className="h-[650px] sm:h-auto py-[20px] bg-[#F0F8F6] w-full">
         <div className="h-full w-[90%] sm:w-[95%] sm:mx-auto flex items-center justify-between sm:flex-col sm:gap-[20px] mx-auto">
-          <div className="flex flex-col h-full gap-[20px]">
+          <div className="flex flex-col h-full justify-between">
             <div>
               <p className="text-[#01C4D8] text-[20px]">
                 Integrated Admin Platforms
@@ -152,7 +152,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col gap-[20px]">
+          <div className="flex flex-col h-full justify-between">
             <div>
               <p className="text-[#01C4D8] text-[20px]">
                 Integrated Mobile Platforms
