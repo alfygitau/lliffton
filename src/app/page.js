@@ -131,7 +131,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-[550px] sm:h-auto py-[20px] bg-[#F0F8F6] w-full">
+      <section className="h-[650px] sm:h-auto py-[20px] bg-[#F0F8F6] w-full">
         <div className="h-full w-[90%] sm:w-[95%] sm:mx-auto flex items-center justify-between sm:flex-col sm:gap-[20px] mx-auto">
           <div className="flex flex-col h-full gap-[20px]">
             <div>
@@ -144,7 +144,7 @@ export default function Home() {
                 analytics and automation.
               </p>
             </div>
-            <div className="h-[400px] w-[850px] sm:w-[100%] sm:h-[350px] rounded bg-white border">
+            <div className="h-[500px] w-[850px] sm:w-[100%] sm:h-[350px] rounded bg-white border">
               <img
                 className="rounded h-full w-full object-contain"
                 src="/admin.png"
@@ -165,14 +165,14 @@ export default function Home() {
               </p>
             </div>
             <div className="flex items-center gap-[20px]">
-              <div className="h-[400px] w-[250px] p-[10px] rounded-[30px] bg-white border">
+              <div className="h-[500px] w-[250px] p-[10px] rounded-[30px] bg-white border">
                 <img
                   className="h-full w-full object-contain"
                   src="/mobile_site.png"
                   alt="mobile"
                 />
               </div>
-              <div className="h-[400px] w-[250px] p-[10px] rounded-[30px] bg-white border">
+              <div className="h-[500px] w-[250px] p-[10px] rounded-[30px] bg-white border">
                 <img
                   className="h-full w-full object-contain"
                   src="/mobile_page.png"
