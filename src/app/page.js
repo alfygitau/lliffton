@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 
 import Carousel from "react-multi-carousel";
@@ -10,7 +11,7 @@ export default function Home() {
   const ref3 = useRef(null);
   const ref4 = useRef(null);
   const ref5 = useRef(null);
-
+  const router = useRouter();
   const countupRefs = [ref1, ref2, ref3, ref4, ref5];
   const countValues = [1000, 2000, 3000, 500, 10000];
 
@@ -63,62 +64,122 @@ export default function Home() {
               To be the leading provider of Research and Training Services
               related to economic growth and development in all sectors.
             </p>
-            <div className="p-4 sm:p-0 text-[16px]">
-              <ul className="list-none space-y-2">
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                  <span>Big data storage</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                  <span>Training and linkages.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-                  <span>Mobile data capture...</span>
-                </li>
-              </ul>
+            <div className="flex items-center gap-[30px]">
+              <div className="p-4 sm:p-0 text-[16px]">
+                <ul className="list-none space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Big data storage</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Training and linkages</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Mobile data capture</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="p-4 sm:p-0 text-[16px]">
+                <ul className="list-none space-y-2">
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Experience working with farmers</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Rich ecosystem databases</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586l-3.293-3.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span>Extensive field source</span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <button className="w-[360px] font-bold uppercase bg-white text-[#01C4D8] border h-[43px] border-[#01C4D8] rounded text-[15px] hover:bg-[#01C4D8] hover:text-white hover:border-0">
+            <button
+              onClick={() => router.push("/contact-us")}
+              className="w-[360px] font-bold uppercase bg-white text-[#01C4D8] border h-[43px] border-[#01C4D8] rounded text-[15px] hover:bg-[#01C4D8] hover:text-white hover:border-0"
+            >
               Get in touch
             </button>
           </div>
